@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta characters-->
+    <meta charset="UTF-8">
+    <meta name="description" content="this website teaches c++ language from beginer level to the intermediate level and then to the professional level">
+    <!--for dealing with devices-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--linkers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c17c17ee5e.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../../../images/icon.png" type="image/jpg">
+    <link rel="styleSheet" href="course.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--title-->
+    <title>first project c++</title>
+    <!--start of java script-->
+    <script>
+        function introFunction() {
+            var x = document.getElementById("first-video");
+            var y = document.getElementById("second-video");
+            var z = document.getElementById("third-video");
+            var d = document.getElementById("fourth-video");
+            y.style.display = "none";
+            z.style.display = "none";
+            d.style.display = "none";
+            x.style.display = "block";
+        }
+    </script>
+    <script>
+        function installFunction() {
+            var x = document.getElementById("first-video");
+            var y = document.getElementById("second-video");
+            var z = document.getElementById("third-video");
+            var z = document.getElementById("fourth-video");
+            x.style.display = "none";
+            z.style.display = "none";
+            d.style.display = "none";
+            y.style.display = "block";
+        }
+    </script>
+    <script>
+        function cinFunction() {
+            var x = document.getElementById("first-video");
+            var y = document.getElementById("second-video");
+            var z = document.getElementById("third-video");
+            var d = document.getElementById("fouth-video");
+            x.style.display = "none";
+            z.style.display = "none";
+            y.style.display = "block";
+            d.style.display = "block";
+        }
+    </script>
+    <script>
+        function QuizFunction() {
+            var x = document.getElementById("first-video");
+            var y = document.getElementById("second-video");
+            var z = document.getElementById("third-video");
+            x.style.display = "none";
+            y.style.display = "none";
+            z.style.display = "block";
+        }
+    </script>
+    <script>
+        function solution() {
+            var x = document.getElementById("solution");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+            else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <!--end of java script-->
+</head>
+<body>
+    <!--start of the header-->
+    <div class="header" id="header">
+        <div class="container">
+            <a href="../../../index.html" class = "logo_name">FOX</a>
+            <ul class="main-nav">
+                <li><a href="#courses">courses</a></li>
+                <li><a href="../../../index.html">problems</a></li>
+                <li><a href="../../../index.html">projects</a></li>
+                <li>
+                    <a href="#">others</a>
+                    <!--start mega menu-->
+                    <div class="mega-menu">
+                        <div class="image">
+                            <img src="../../../images/megamenu.png" alt="mega-menu-picture">
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="https://faris-13.github.io/fox/"><i class="fa fa-laptop"></i>Fox Agency</a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+201000077767"><i class="fa fa-whatsapp"></i>what'sapp</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/faris.elmola"><i class="fa fa-facebook"></i>Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/faris.elmola/"><i class="fa fa-instagram"></i>Insatagram</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube"></i>YouTube</a>
+                            </li>
+                        </ul>
+                        <ul class="links">
+                            <li>
+                                <a href="../../../python/python.html"><i class='fab fa-python'></i> Python</a>
+                            </li>
+                            <li>
+                                <a href="../../../c-languages/c-language.html"><i class="fab fa-cuttlefish"></i> C++</a>
+                            </li>
+                            <li>
+                                <a href="../../../html/html.html"><i class="fa fa-html5"></i> HTML</a>
+                            </li>
+                            <li>
+                                <a href="../../../css/css.html"><i class="fa fa-css3"></i> CSS</a>
+                            </li>
+                            <li>
+                                <a href="../../../java-script/java-script.html"><i class="fab fa-java"></i> Java Script</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end mega menu-->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--end of header-->
+    <!--start of landing-->
+    <div class="landing">
+        <div class="container">
+            <div class="big-box">
+                <div class="selfie-img">
+                    <img src="../../../images/courses/c-language.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>Beginner C++ Language</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of landing-->
+    <!--start of videos-->
+    <div class="videos">
+        <h2 class="main-title">Start the lessons</h2>
+        <div class="container">
+            <div class="holder">
+                <div class="list">
+                    <div class="name">
+                        Main Videos
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <ul class="list">
+                        <li><a onclick="introFunction()">variables part 1<span>12:51</span></a></li>
+                        <li><a onclick="installFunction()">variables part 2<span>12:51</span></a></li>
+                        <li><a onclick="cinFunction()">cin function<span>12:51</span></a></li>
+                        <li><a onclick="QuizFunction()">Quiz</a></li>
+                    </ul>
+                </div>
+                <div class="preview">
+                    <div class="video" id="first-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6aWTyIBldxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info">
+                            This lesson will help you understand what the laptop can do.
+                        </div>
+                        <div class="button">
+                            <a style="display: none;">pervious</a>
+                            <a onclick="installFunction()">next</a>
+                        </div>
+                    </div>
+                    <div class="video" id="second-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-d3WwrK5Ggg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info">
+                            This lesson will help you understand how to install c++ and g++ on your pc.
+                        </div>
+                        <div class="button">
+                            <a onclick="introFunction()">pervious</a>
+                            <a onclick="cinFunction()">next</a>
+                        </div>
+                    </div>
+                    <div class="video" id="third-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-d3WwrK5Ggg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info">
+                            This lesson will help you understand how to install c++ and g++ on your pc.
+                        </div>
+                        <div class="button">
+                            <a onclick="installFunction()">pervious</a>
+                            <a onclick="QuizFunction()">next</a>
+                        </div>
+                    </div>
+                    <div class="video" id="fourth-video">
+                        <div class="quiz">
+                            <h5>Info about the program:</h5>
+                            <p>print on the console "Hello World!"</p>
+                            <h5>Output:</h5>
+                            <p>Hello World!</p>
+                            <a onclick="solution()">show answer</a>
+                        </div>
+                        <div class="solution" id="solution">
+                            <img src="c-begginer-problems/print-hello.jpg" alt="hello-world">
+                            <video src="#" controls></video>
+                        </div>
+                        <div class="button">
+                            <a onclick="installFunction()">pervious</a>
+                            <a href="#">next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of videos-->
+    <!--start of footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>FOX For Programming</h3>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/faris.elmola" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://wa.me/+201000077767" class="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                    <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <p class="text">In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them."</p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <li><a href="https://faris-13.github.io/fox/">Fox Agency</a></li>
+                    <li><a href="https://elzero.org/">El zero web school</a></li>
+                    <li><a href="https://www.youtube.com/c/Codezilla">codezilla channel</a></li>
+                    <li><a href="https://www.youtube.com/c/AliShahin">Ali shahin channel</a></li>
+                    <li><a href="https://www.youtube.com/c/%D9%85%D8%AD%D9%85%D8%AF%D8%A7%D9%84%D8%AF%D8%B3%D9%88%D9%82%D9%89">El dosokey channel</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCtOyb8800Av9Q-7i-l2mYyA">mohamed shoshan channel</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">
+                        Egypt, Cairo
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">
+                        working hours: From 10:00 To 24:00
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span><a href="tel:+201000077767">+20 1000 777 67</a></span>
+                        <span><a href="mailto:felmola13@gmail.com">felmola13@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+                <img src="../../../images/field/webdevelopment.png" alt="footer1">
+                <img src="../../../images/footer2.png" alt="footer2">
+                <img src="../../../images/footer3.jpg" alt="footer3">
+                <img src="../../../images/footer4.png" alt="footer4">
+                <img src="../../../images/footer5.jpg" alt="footer5">
+                <img src="../../../images/footer6.png" alt="footer6">
+            </div>
+        </div>
+        <p class="copyright">Made by Faris</p>
+    </div>
+    <!--end of footer-->
+</body>
+</html>
